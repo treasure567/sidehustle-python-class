@@ -37,10 +37,16 @@ print (fruits)
 
 # Creating two sets.
 a = {1,3,4, 5,6,7,8}
-b = {2,6,9,0,1,10}
+b = {2,6,9,0,1,10, 3}
 
 # Creating a new set `c` that contains all the elements of `a` and `b`.
 c = a.union(b)
+
+# Printing the set `c`.
+print(c)
+
+# Creating a new set `c` that contains all the elements that are in both `a` and `b`.
+c =  a.intersection(b)
 
 # Printing the set `c`.
 print(c)
