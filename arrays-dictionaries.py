@@ -60,3 +60,21 @@ print(school)
 # It prints the keys of the dictionary.
 for i in school.keys():
     print(i)
+
+
+# Creating a nested dictionary called family.
+family = {
+    "first_born": { 
+        "name": "John",
+        "age": 10,
+        "gender": "male"
+    },
+    "second_born": {
+        "name": "Jane",
+        "age": 9,
+        "gender": "female"
+    }
+}
+
+# It prints the dictionary.
+print(family)
