@@ -44,3 +44,9 @@ school['owner'] = 'Treasure Uvietobore'
 
 # It prints the dictionary.
 print(school)
+
+# Removing the key-value pair with the key 'annual_revenus' from the dictionary.
+school.pop('annual_revenus')
+
+# It prints the dictionary.
+print(school)
