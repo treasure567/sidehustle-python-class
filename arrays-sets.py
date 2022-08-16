@@ -12,6 +12,7 @@ for a in fruits:
     print (a)
 
 # Checking if the string 'apple' is in the set fruits.
+# Printing the value of the key 'name' in the dictionary school.
 print ('apple' in fruits)
 
 # Adding the string 'pawpaw' to the set fruits.
