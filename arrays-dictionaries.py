@@ -36,4 +36,5 @@ print (school.items())
 # Adding a new key-value pair to the dictionary.
 school.update({'owner': 'Treasure Uvietobore'})
 
+# It prints the dictionary.
 print(school)
