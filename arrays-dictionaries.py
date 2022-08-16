@@ -14,3 +14,12 @@ print(type(school))
 
 # Printing the value of the key 'name' in the dictionary school.
 print(school['name'])
+
+# Printing the value of the key 'location' in the dictionary school.
+print(school.get('location'))
+
+# It prints the keys of the dictionary.
+print(school.keys())
+
+# It prints the values of the dictionary.
+print(school.values())
