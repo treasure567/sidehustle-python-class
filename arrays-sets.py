@@ -35,4 +35,9 @@ fruits.clear()
 # Printing the set.
 print (fruits)
 
+# Creating two sets.
+a = {1,3,5,6,7,8}
+b = {2,6,9,0,1,10}
+
+
 
