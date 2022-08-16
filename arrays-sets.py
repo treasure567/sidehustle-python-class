@@ -17,6 +17,12 @@ print ('apple' in fruits)
 # Adding the string 'pawpaw' to the set fruits.
 fruits.add('pawpaw')
 
+# Assigning the value of `fruits` to itself.
+fruits = fruits
+
+# Adding the string 'lemon' to the set fruits.
+fruits.update(['lemon'])
+
 # Printing the set.
 print (fruits)
 
