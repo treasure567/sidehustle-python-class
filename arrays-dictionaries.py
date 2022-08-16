@@ -50,3 +50,7 @@ school.pop('annual_revenus')
 
 # It prints the dictionary.
 print(school)
+
+school.popitem()
+
+print(school)
