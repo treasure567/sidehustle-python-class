@@ -34,7 +34,13 @@ print(school)
 print (school.items())
 
 # Adding a new key-value pair to the dictionary.
-school.update({'owner': 'Treasure Uvietobore'})
+school.update({'name': 'Trenalyze Coding Academy'})
+
+# It prints the dictionary.
+print(school)
+
+# Adding a new key-value pair to the dictionary.
+school['owner'] = 'Treasure Uvietobore'
 
 # It prints the dictionary.
 print(school)
