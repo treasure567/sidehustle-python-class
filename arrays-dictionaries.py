@@ -51,6 +51,12 @@ school.pop('annual_revenus')
 # It prints the dictionary.
 print(school)
 
+# It removes the last key-value pair from the dictionary.
 school.popitem()
 
+# It prints the dictionary.
 print(school)
+
+# It prints the keys of the dictionary.
+for i in school.keys():
+    print(i)
