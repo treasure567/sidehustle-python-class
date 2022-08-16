@@ -23,6 +23,15 @@ fruits = fruits
 # Adding the string 'lemon' to the set fruits.
 fruits.update(['lemon'])
 
+# Removing the string 'apple' from the set `fruits`.
+fruits.discard('apple')
+
+# It removes the first element from the set.
+fruits.pop()
+
+# It removes all the elements from the set.
+fruits.clear()
+
 # Printing the set.
 print (fruits)
 
