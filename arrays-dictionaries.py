@@ -23,3 +23,17 @@ print(school.keys())
 
 # It prints the values of the dictionary.
 print(school.values())
+
+# Changing the value of the key 'name' in the dictionary school.
+school['name'] = 'Trenalyze Academy'
+
+# It prints the dictionary.
+print(school)
+
+# It prints the items of the dictionary.
+print (school.items())
+
+# Adding a new key-value pair to the dictionary.
+school.update({'owner': 'Treasure Uvietobore'})
+
+print(school)
