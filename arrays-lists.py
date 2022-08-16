@@ -27,3 +27,9 @@ b = fruits.append('carrot')
 
 # Printing the list of fruits.
 print(fruits)
+
+# It removes the element 'lemon' from the list.
+fruits.remove('lemon')
+
+# It prints the list of fruits.
+print(fruits)
