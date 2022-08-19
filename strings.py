@@ -18,3 +18,9 @@ print(b)
 
 # Printing the value of the variable first_name from index 3 to index 7.
 print(first_name[3:7])
+
+# Printing the value of the variable first_name from index 3 to the end of the string.
+print(first_name[3:])
+
+# Printing the value of the variable first_name from the beginning of the string to index 7.
+print(first_name[:7])
