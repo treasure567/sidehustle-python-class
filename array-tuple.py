@@ -40,3 +40,18 @@ new = fruits + addition
 
 # Printing the tuple `new`.
 print(new)
+
+# Converting the tuple `new` to a list.
+new = list(new)
+
+# Removing the element `'melon'` from the tuple `new`.
+new.remove('melon')
+
+# Converting the list `new` to a tuple.
+new = tuple(new)
+
+# Counting the number of times the string `'orange'` appears in the tuple `new`.
+print(new.count('orange'))
+
+# Printing the tuple `new`.
+print(new)
