@@ -37,3 +37,14 @@ def addNew(*args):
 
 # Printing the sum of the three numbers.
 print("The total sum is: ", addNew('', ''))
+
+def kwargs(**kwargs):
+    """
+    This function takes keyword arguments and prints them
+    
+    :param kwargs: The keyword arguments to be printed
+    :return: None
+    """
+    print('The least child is', kwargs['c'])
+
+kwargs(a = 1, b = 2, c = 3)
