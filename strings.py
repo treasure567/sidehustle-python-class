@@ -27,3 +27,8 @@ print(first_name[:7])
 
 # Printing the length of the variable first_name.
 print(len(first_name))
+
+# Printing the value of the variable first_name in uppercase.
+print(first_name.upper())
+
+print(first_name.lower())
