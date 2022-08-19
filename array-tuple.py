@@ -35,4 +35,5 @@ addition = ('melon',)
 # Concatenating the tuple `fruits` with the tuple `addition`.
 new = fruits + addition
 
+# Printing the tuple `new`.
 print(new)
