@@ -27,4 +27,12 @@ a = list(fruits)
 a[1] = 'watermelon'
 
 # Printing the list `a`.
-print(a)
+print("This is the new list", a)
+
+# Creating a tuple with one element.
+addition = ('melon',)
+
+# Concatenating the tuple `fruits` with the tuple `addition`.
+new = fruits + addition
+
+print(new)
