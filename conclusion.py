@@ -48,5 +48,4 @@ target = int(input("Enter the target number: "))
 
 index = len(arr) - 1
 
-
 linear_search2(arr, index, target)
