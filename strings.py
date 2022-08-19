@@ -1,5 +1,5 @@
 # Assigning the value "Treasure" to the variable first_name.
-first_name = "Treasure "
+first_name = "Treasure"
 
 # Assigning the value "Uvietobore" to the variable last_name.
 last_name = "Uvietobore"
@@ -24,3 +24,6 @@ print(first_name[3:])
 
 # Printing the value of the variable first_name from the beginning of the string to index 7.
 print(first_name[:7])
+
+# Printing the length of the variable first_name.
+print(len(first_name))
