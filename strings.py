@@ -31,4 +31,12 @@ print(len(first_name))
 # Printing the value of the variable first_name in uppercase.
 print(first_name.upper())
 
+# It prints the value of the variable first_name in lowercase.
 print(first_name.lower())
+
+# It replaces the value "Treasu" in the variable first_name with the value "Trenalyze".
+print(first_name.replace("Treasu", "Trenalyze"))
+
+# It splits the string into a list of strings using the specified separator.
+print(first_name.split("e"))
+
