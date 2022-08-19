@@ -26,6 +26,9 @@ a = list(fruits)
 # Assigning the value `'watermelon'` to the second element in the list `a`.
 a[1] = 'watermelon'
 
+# Adding the string `'carrot'` to the end of the list `a`.
+a.append('carrot')
+
 # Printing the list `a`.
 print("This is the new list", a)
 
