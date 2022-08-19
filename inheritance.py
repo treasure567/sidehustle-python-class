@@ -59,3 +59,9 @@ print(b.Add(4, 5))
 
 # Calling the method Multiply() from the class Solution2 and passing the arguments 4 and 6.
 print(b.Multiply(4, 6))
+
+# Checking if Solution3 is a subclass of Solution1.
+print(issubclass(Solution3, Solution1))
+
+# Checking if Solution2 is a subclass of Solution1.
+print(issubclass(Solution2, Solution1))
