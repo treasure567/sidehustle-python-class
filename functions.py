@@ -36,15 +36,43 @@ def addNew(*args):
     return a + b + c
 
 # Printing the sum of the three numbers.
-print("The total sum is: ", addNew('', ''))
+# print("The total sum is: ", addNew('', ''))
 
-def kwargs(**kwargs):
+def kwargsp(**k):
     """
     This function takes keyword arguments and prints them
     
     :param kwargs: The keyword arguments to be printed
     :return: None
     """
-    print('The least child is', kwargs['c'])
+    print('The least child is', k['c'])
 
-kwargs(a = 1, b = 2, c = 3)
+# Calling the function kwargsp and passing the keyword arguments a, b, and c.
+kwargsp(a = 1, b = 2, c = 3)
+
+def love(name = "Boy", b = 'girl'):
+    """
+    The function love() takes two arguments, name and b, and prints the value of name. 
+    
+    The function love() has two parameters, name and b. 
+    
+    The function love() has a default value for name, which is "Boy". 
+    
+    The function love() has a default value for b, which is "girl". 
+    
+    The function love() has a docstring, which is "Here's a one sentence summary of the above function:
+    The function love() takes two arguments, name and b, and prints the value of name." 
+    
+    The function love() has a docstring, which is "Here's a one sentence summary of the above function:
+    The function love() takes two arguments, name and b, and prints the value of name." 
+    
+    The function love() has a docstring, which is "Here's a one sentence summary
+    
+    :param name: This is a positional parameter, defaults to Boy (optional)
+    :param b: This is a positional parameter, defaults to girl (optional)
+    """
+    print(name)
+
+# Calling the function love() and passing the argument 'treasure' to it.
+love('treasure')
+
