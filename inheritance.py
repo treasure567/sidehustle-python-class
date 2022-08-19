@@ -32,7 +32,12 @@ class Solution2:
     def Multiply(self, num1, num2):
         return num1 * num2
 
-class Result(Solution1):
-    def Show(self, a, b):
+class Solution3(Solution1):
+    def Divide(self, a, b):
         a = int(input("Enter first number: "))
         b = int(input("Enter second number: "))
+        return (a / b)
+
+a = Solution1()
+
+print(a.Add(1, 2))
