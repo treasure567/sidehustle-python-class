@@ -10,3 +10,8 @@ class Employee:
 a = Employee()
 
 a.show()
+
+# Polymorphism is the ability of an object to take more than one form.
+# encapsulation is the ability of an objectto be hidden from end users.
+# abstraction is the ability of an object to be represented by a simpler interface.
+# Inhheritance is the ability of a class to inherit the attricutes and methods of another class.
